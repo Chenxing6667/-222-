@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Single</title>
+<title>详情</title>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -10,11 +10,28 @@
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Cinema Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="keywords" content="影院响应式网页模板, Bootstrap网页模板, 扁平化网页模板, 安卓兼容网页模板, 
+智能手机兼容网页模板, 诺基亚、三星、LG、索尼爱立信、摩托罗拉免费网页设计" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<style>
+.more-comments {
+    float: right;
+    margin-top: 10px;
+}
+
+.more-comments a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.more-comments a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+</style>
 </head>
 <body>
 	<!-- header-section-starts -->
@@ -33,27 +50,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="top-header span_top">
 				<div class="logo">
 					<a href="index.html"><img src="images/logo.png" alt="" /></a>
-					<p>Movie Theater</p>
+					<p>电影院</p>
 				</div>
 				<div class="search v-search">
 					<form>
-						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}"/>
+						<input type="text" value="搜索.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '搜索..';}"/>
 						<input type="submit" value="">
 					</form>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 			<div class="reviews-section">
-				<h3 class="head">Movie Reviews</h3>
+				<h3 class="head">电影影评</h3>
 					<div class="col-md-9 reviews-grids">
 						<div class="review">
 							<div class="movie-pic">
-								<a href="single.html"><img src="images/r4.jpg" alt="" /></a>
+								<a href="single.html"><img src="images/r6.jpg" alt="" /></a>
 							</div>
 							<div class="review-info">
-								<a class="span" href="single.html">Lorem  <i>Movie Review</i></a>
-								<p class="dirctr"><a href="">Reagan Gavin Rasquinha, </a>TNN, Mar 12, 2015, 12.47PM IST</p>
-								<p class="ratingview">Critic's Rating:</p>
+								<a class="span" href="single.html">哪吒之魔童闹海，<i>若天下无路，我就开出一条路</i></a>
+								<p class="dirctr"><a href="">nothing, </a>豆瓣网, 2025-01-29 20:56:52</p>
+								<p class="ratingview">影评人评分：</p>
 								<div class="rating">
 									<span>☆</span>
 									<span>☆</span>
@@ -62,10 +79,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<span>☆</span>
 								</div>
 								<p class="ratingview">
-								&nbsp;3.5/5  
+								&nbsp;4/5  
 								</p>
 								<div class="clearfix"></div>
-								<p class="ratingview c-rating">Avg Readers' Rating:</p>
+								<p class="ratingview c-rating">读者平均评分：</p>
 								<div class="rating c-rating">
 									<span>☆</span>
 									<span>☆</span>
@@ -79,50 +96,91 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="yrw">
 									<div class="dropdown-button">           			
 										<select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-										<option value="0">Your rating</option>	
-										<option value="1">1.Poor</option>
-										<option value="2">1.5(Below average)</option>
-										<option value="3">2.Average</option>
-										<option value="4">2.5(Above average)</option>
-										<option value="5">3.Watchable</option>
-										<option value="6">3.5(Good)</option>
-										<option value="7">4.5(Very good)</option>
-										<option value="8">5.Outstanding</option>
+										<option value="0">您的评分</option>	
+										<option value="1">1.差</option>
+										<option value="2">1.5(低于平均)</option>
+										<option value="3">2.一般</option>
+										<option value="4">2.5(高于平均)</option>
+										<option value="5">3.值得一看</option>
+										<option value="6">3.5(好)</option>
+										<option value="7">4.5(非常好)</option>
+										<option value="8">5.杰出</option>
 									  </select>
 									</div>
 									<div class="rtm text-center">
-										<a href="#">REVIEW THIS MOVIE</a>
+										<a href="#">评论这部电影</a>
 									</div>
 									<div class="wt text-center">
-										<a href="#">WATCH THIS TRAILER</a>
+										<a href="#">观看预告片</a>
 									</div>
 									<div class="clearfix"></div>
 								</div>
-								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
-								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
-								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
-								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
+								<p class="info">配音演员阵容：吕艳婷、囧森瑟夫、瀚墨、陈浩、绿绮</p>
+								<p class="info">导演：饺子</p>
+								<p class="info">类型：剧情、喜剧、动画、奇幻</p>
+								<p class="info">片长：144分钟</p>
 							</div>
 							<div class="clearfix"></div>
 						</div>
 						<div class="single">
-							<h3>Lorem Ipsum IS A TENSE, TAUT, COMPELLING THRILLER</h3>
-							<p>STORY:<i> Meera and Arjun drive down Lorem Ipsum - can they survive a highway from hell?</i></p>
+							<h3>这是中国影史首部百亿元票房影片</h3>
+							<p>剧情：<i>该片是《哪吒》系列电影的第二部，讲述了天劫之后，哪吒、敖丙的灵魂保住了，但很快会魂飞魄散，太乙真人打算用七色宝莲给二人重塑肉身，但是在重塑肉身的过程中却遇到重重困难，哪吒、敖丙的命运将迎来更多的挑战。</i></p>
 						</div>
 							<div class="best-review">
-								<h4>Best Reader's Review</h4>
-								<p>Excellent Movie and great performance by Lorem, one of the finest thriller of recent  like Aldus PageMaker including versions of Lorem Ipsum.</p>
-								<p><span>Neeraj Upadhyay (Noida)</span> 16/03/2015 at 12:14 PM</p>
+								<h4>最佳读者评论</h4>
+								<p>烦透了这种高层隐身、中层搞事、底层遭殃的设定，无数次看得我血压飙升，哪吒虽然设定是魔，行事倒是深受忠孝仁义那套东西束缚，也不知道到底反了个啥？</p>
+								<p><span>王五（北京）</span> 2025年1月29日 12:14</p>
 							</div>
 							<div class="story-review">
-								<h4>REVIEW:</h4>
-								<p>So,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+								<h4>影评：</h4>
+								<p>作为第一批走进电影院的观众，趁着热乎劲儿，如实叨叨，等待了五年之久的《哪吒2》，整出了啥绝活。
+
+									先用一句话总结，从价值观构建 、视效制作、创意发挥三个层面，《哪吒2》确实是做到了在《哪吒1》基础上的全面迭代。
+									
+									先说价值观构建，从人物观塑造来讲，如果说《哪吒1》的母题是围绕着哪吒是魔丸还是灵珠，我到底是谁由谁来定义展开，这是讲得我和自己的关系。那么《哪吒2》的迭代在于， 往"我是谁"基础上更前进了一步，它主要讲述得是我和环境的关系。
+									
+									当这个强大却糟糕的世界想改变我，我是屈服还是懦弱，我有没有勇气对它说不。
+									
+									依附强者会在一定意义上让"我"变得更强大，表面上看，这对我有着实打实的好处。
+									
+									但他扭曲了我的本性。
+									
+									魔只是外界的定义，我不再被外界概念套住，只有我的心才能决定我是谁，若我不再忠实我的内心，那么我的强大有何意义，我又还是我吗？
+									
+									从更大的世界观来看，《哪吒1》讨论得是好人和坏人如何定义，一个人的出身是否可以决定它一定是好人或者坏人。《哪吒2》对好和坏的理解更加深刻，它颠覆了出身论的好坏结论，出身是一种皮相，人们对于好坏的定义更是浅陋。
+									
+									慈眉善目的仙翁在仙界有着被人尊崇的地位，是魔道和仙道都尊崇的好人、圣人，而实际他却打着修仙强教的幌子，干得是伤害无辜、涂炭生灵的龌龊事儿。
+									
+									一惹就上火的哪吒是被外界定义的魔身，但他坦荡无畏，为唯一的朋友重得肉身，经历仙界重重考验，换取得以塑身的琼浆玉液；也为救亲生父母，愿自了性命，换取一线生机，逃出火狱金鼎；为陈塘关被无辜杀害的百姓，与友情决裂，大闹龙宫，向来爱憎分明。
+									
+									魔和仙能代表什么，不过只是一层脆弱的外衣，好和坏终究禁不起深层的推理，唯一能够决定我们是谁得是，在无数次冰与火的考验里，自私与利他的两重选择下，我们做出了什么样的行动，是掉入自利贪欲的牢笼，还是心系苍灵，依然怀揣最大善意对待这个曾中伤我的世界。
+									
+									最后，面对已经根深蒂固被强权控制的这个世界，前辈龙王质疑，难道你还想改变它？难道你有勇气改变它？
+									
+									哪吒轻轻得说，我想试试看。
+									
+									若天下无路，我就开出一条路。
+									
+									若天地不容，我就扭转乾坤。
+									
+									这让我想起李白的那句，仰天大笑出门去，我辈岂是蓬蒿人。
+									
+									这才是《哪吒2》的魂，这是属于全新一代的哪吒形象，成见压不倒他，强权威逼不了他，他是谁由他自己决定，带着这份勇气和初心，他会继续前行，直到一个更美好的世界来临。
+									
+									再说视效制作，这绝对是一部可以媲美好莱坞工业大片视效水准的作品。相比于1， 2在大场景动作漫画视效层面制作，毫不夸张，是惊为天人的烧钱做法。
+									
+									修仙天堂天虚宫在镜头里以仙气飘飘美轮美奂唯美呈现，数万海兽围攻陈塘关、千万锁链层层交错、人海战术的捕妖队阵型变换、龙王家族内部缤纷酣战、哪吒的火身与敖丙的水身合二为一绝美融合，二个半小时，几乎大场面大视角的画面没有中场休息的时间，看完或许能明白，为什么哪吒2，它足足花了五年时间，因为这些确实真的很费时间。
+									
+									在创意发挥的层面，有很多传统文化元素的融入和再创，比如，最后九死一生之下，仙翁利用他人性的弱点，提出可以以哪吒一人之命救父母的命，哪吒毫不犹豫赴死，但母亲最终救下哪吒，母亲牺牲激发了哪吒的潜能，肉身得以完成圆满，传统哪吒故事里的"剔骨还父割肉还母"此时变成了母亲用爱托举，催化了哪吒置之死地而后生的起死回生； 再比如，小妖和各地方言的奇妙结合，让每个妖怪都有了立体化的形象和人格化趣味，在人物台词和片尾曲的设计上，也多次加说唱表演、快板等传统艺术文化呈现，如此将国风轻喜动漫与传统文化进行合时宜的融合，形成一种新颖别致的现代新国漫风格，在这方面，哪吒2相较1也进行了更勇敢和多元的尝试。</p>
 							</div>
 							<!-- comments-section-starts -->
 	    <div class="comments-section">
 	        <div class="comments-section-head">
 				<div class="comments-section-head-text">
-					<h3>25 Comments</h3>
+					<h3>更多评论</h3>
+				</div>
+				<div class="more-comments">
+					<a href="https://movie.douban.com/subject/34780991/" target="_blank">查看豆瓣全部评论 ></a>
 				</div>
 				<div class="clearfix"></div>
 		    </div>
@@ -172,23 +230,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		  <div class="reply-section">
 			  <div class="reply-section-head">
 				  <div class="reply-section-head-text">
-					  <h3>Leave Reply</h3>
+					  <h3>发表评论</h3>
 				  </div>
 			  </div> 
 			<div class="blog-form">
 			    <form>
-					<input type="text" class="text" value="Enter Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Name';}">
-					<input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}">
-					<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+					<input type="text" class="text" value="输入姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '输入姓名';}">
+					<input type="text" class="text" value="输入邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '输入邮箱';}">
+					<input type="text" class="text" value="主题" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '主题';}">
 					<textarea></textarea>
-					<input type="button" value="SUBMIT COMMENT">
+					<input type="button" value="提交评论">
 			    </form>
 			 </div>
 		  </div>
 		  </div>
 					<div class="col-md-3 side-bar">
 						<div class="featured">
-							<h3>Featured Today in Movie Reviews</h3>
+							<h3>今日影评精选</h3>
 							<ul>
 								<li>
 									<a href="single.html"><img src="images/f1.jpg" alt="" /></a>
@@ -219,13 +277,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 						
 						<div class="entertainment">
-							<h3>Featured Today in Entertainment</h3>
+							<h3>今日娱乐精选</h3>
 							<ul>
 								<li class="ent">
 									<a href="single.html"><img src="images/f6.jpg" alt="" /></a>
 								</li>
 								<li>
-									<a href="single.html">Watch ‘Bombay Velvet’ trailer during WC match</a>
+									<a href="single.html">Watch 'Bombay Velvet' trailer during WC match</a>
 								
 								</li>
 								<div class="clearfix"></div>
@@ -235,7 +293,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html"><img src="images/f5.jpg" alt="" /></a>
 								</li>
 									<li>
-									<a href="single.html">Watch ‘Bombay Velvet’ trailer during WC match</a>
+									<a href="single.html">Watch 'Bombay Velvet' trailer during WC match</a>
 							
 								</li>
 								<div class="clearfix"></div>
@@ -245,7 +303,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html"><img src="images/f3.jpg" alt="" /></a>
 								</li>
 								<li>
-									<a href="single.html">Watch ‘Bombay Velvet’ trailer during WC match</a>
+									<a href="single.html">Watch 'Bombay Velvet' trailer during WC match</a>
 								
 								</li>
 								<div class="clearfix"></div>
@@ -255,7 +313,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html"><img src="images/f4.jpg" alt="" /></a>
 								</li>
 								<li>
-									<a href="single.html">Watch ‘Bombay Velvet’ trailer during WC match</a>
+									<a href="single.html">Watch 'Bombay Velvet' trailer during WC match</a>
 								
 								</li>
 								<div class="clearfix"></div>
@@ -265,7 +323,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html"><img src="images/f2.jpg" alt="" /></a>
 								</li>
 								<li>
-									<a href="single.html">Watch ‘Bombay Velvet’ trailer during WC match</a>
+									<a href="single.html">Watch 'Bombay Velvet' trailer during WC match</a>
 							
 								</li>
 								<div class="clearfix"></div>
@@ -275,7 +333,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="single.html"><img src="images/f1.jpg" alt="" /></a>
 								</li>
 								<li>
-									<a href="single.html">Watch ‘Bombay Velvet’ trailer during WC match</a>
+									<a href="single.html">Watch 'Bombay Velvet' trailer during WC match</a>
 								
 								</li>
 								<div class="clearfix"></div>
@@ -383,11 +441,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<script type="text/javascript" src="js/jquery.flexisel.js"></script>	
 		</div>		
 	<div class="footer">
-		<h6>Disclaimer : </h6>
-		<p class="claim">This is a freebies and not an official website, I have no intention of disclose any movie, brand, news.My goal here is to train or excercise my skill and share this freebies.</p>
+		<h6>免责声明：</h6>
+		<p class="claim">这是一个个人课程项目而非官方网站，我无意披露任何电影、品牌、新闻。我的目标是训练或锻炼我的技能并分享这些免费资源。</p>
 		<a href="example@mail.com">example@mail.com</a>
 		<div class="copyright">
-			<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://guantaow.taobao.com/">厚朴网络淘宝店</a><a target="_blank" href="http://www.moobnn.com">网页模板</a></p>
+			<p>版权所有 &copy; 2025.公司名称保留所有权利。</p>
 		</div>
 	</div>	
 	</div>
